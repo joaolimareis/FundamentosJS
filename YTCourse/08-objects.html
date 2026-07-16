@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+  <script>
+    /*
+     const product = {
+      name: 'socks',
+      price: 1090
+     };
+     console.log( typeof product);
+     console.log(product.price)
+     console.log(product.name)
+
+     product.name = 'cotton socks'
+     console.log(product)
+
+     product.NewProperty = true;
+     console.log(product)
+
+     delete product.NewProperty;
+     console.log(product)
+     */
+/*
+    const products2 = {
+      name: 'shirt',
+      ['delivery-time']: '1 day',
+      rating: {
+        stars: 4.5,
+        count: 87
+
+      },
+        fun: function fun() {
+          console.log('function inside object');
+        }    };
+    console.log(products2);
+    console.log(products2.name);
+    console.log(products2['name'])
+    console.log(products2['delivery-time']);
+    console.log(products2.rating.count)
+    products2.fun();
+    console.log(typeof console.log)
+ convert JavaScript Object -> JSON
+    console.log( JSON.stringify(products2))
+convert JSON -> JavaScript
+    const jsonString = JSON.stringify(products2) 
+    
+    console.log(JSON.parse(jsonString))
+    */
+
+   console.log('hello'.length)
+   console.log('hello'.toLocaleUpperCase())
+   const object1 ={
+    message: 'hello'
+   };
+   const object2 = object1
+   const object4  ={
+    message: 'Good Job!',
+    price: 799
+   }
+   //const message = object4.message
+   const {message, price} = object4
+   console.log(message)
+   console.log(price)
+</script>
+</body>
+</html>
